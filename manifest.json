@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "blitz消すやつ",
+    "short_name": "blitz消すやつ",
+    "version": "1.0.0",
+    "description": "blitz消すやつ",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.probuilds.net/champions/details/*"
+        ],
+        "css": [
+          "style.css"
+        ]
+      }
+    ]
+  }
